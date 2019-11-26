@@ -7,8 +7,6 @@
 body{
     font-family: 'Roboto', sans-serif;
     color: #161616;
-    
-
 }
 ul {
     list-style: none;
@@ -27,6 +25,8 @@ a {
 }
 
 
+
+/*Header*/
 .header{
     margin-top: 75px;
 }
@@ -137,7 +137,7 @@ a {
 }
 
 
-
+/*Footer*/
 
 footer{
     margin: -35px 0 95px;
