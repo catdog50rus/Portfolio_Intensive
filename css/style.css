@@ -1,0 +1,155 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #161616;
+    
+
+}
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.container{
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+
+.header{
+    margin-top: 75px;
+}
+.header__my-name,
+.header__my-profession {
+    font-size: 42px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.header__my-propeties {
+    font-size: 36px;
+    font-weight: 300;
+    margin-top: 60px;
+}
+.header__my-social-networks {
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+    width: 290px;
+    margin-bottom: 70px;
+}
+
+/*section "about-me"*/
+
+.about-me__inner{
+    min-height: 700px;
+    background-color: #e3f0f7;
+    
+}
+.about-me__content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.about-me__content-text{
+    padding-top: 15px;
+    padding-right: 140px;
+    font-weight: 700;
+}
+.about-me__title{
+    font-size: 40px;
+}
+.about-me__text{
+    margin-top: 30px;
+    width: 440px;
+    height: 130px;
+    font-size: 28px;
+    line-height: 45px;
+    font-weight: 300;
+}
+.my-skills__title{
+    font-size: 28px;
+    line-height: 45px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+.about-me__my-skills ul{
+    padding-left: 30px;
+}
+.my-skills{
+    font-size: 28px;
+    line-height: 45px;
+    font-weight: 300;
+    position: relative;
+}
+.my-skills::before{
+    content: '—';
+    position: absolute;
+    top: 0;
+    left: -30px;
+}
+
+/*section "portfolio"*/
+
+.portfolio__title{
+    margin: 70px 0 80px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.portfolio__inner-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.portfolio__card{
+    margin-bottom: 135px;
+}
+
+.portfolio__card-title{
+    margin-top: 25px;
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 700;
+}
+.portfolio__card-description{
+    margin-top: 20px;
+    margin-bottom: 16px;
+    font-size: 28px;
+    line-height: 45px;
+    font-weight: 300;
+}
+.portfolio__card-link{   
+    font-size: 16px;
+    color: #969696;
+    font-weight: 300; 
+}
+
+
+
+
+footer{
+    margin: -35px 0 95px;
+}
+
+.footer__text-title{
+    font-size: 42px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.footer__text-contact{
+    padding-top: 30px;
+    font-size: 36px;
+    font-weight: 300;
+}
