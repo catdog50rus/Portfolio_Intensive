@@ -28,7 +28,15 @@ a {
 
 /*Header*/
 .header{
+    background-color: #e3f0f7;
+}
+.header__content{
     margin-top: 75px;
+}
+.header__project-content{
+    display: flex;
+    justify-content: space-between;
+    min-height: 170px;
 }
 .header__my-name,
 .header__my-profession {
@@ -37,10 +45,25 @@ a {
     font-weight: 700;
     margin-bottom: 20px;
 }
+.header__project-my-name{
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.header__project-my-profession{
+    font-size: 22px;
+    font-weight: 700;
+    margin: 10px 0 50px;
+}
 .header__my-propeties {
     font-size: 36px;
     font-weight: 300;
     margin-top: 60px;
+}
+.header__content-social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .header__my-social-networks {
     margin-top: 23px;
@@ -142,7 +165,9 @@ a {
 footer{
     margin: -35px 0 95px;
 }
-
+.footer__project{
+    margin: 100px 0 95px;
+}
 .footer__text-title{
     font-size: 42px;
     letter-spacing: 1px;
@@ -152,4 +177,7 @@ footer{
     padding-top: 30px;
     font-size: 36px;
     font-weight: 300;
+}
+.footer__text-contact a {
+    color: #039be5;
 }
