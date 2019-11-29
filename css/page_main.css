@@ -64,6 +64,40 @@ a {
 }
 
 
+/*calculator*/
+.calculate {
+    margin-top: 20px;
+
+}
+
+.calculate__price-btn {
+    height: 80px;
+    max-width: 450px;
+    border: 1px solid #039be5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-weight: 500;
+    transition: 0.3s border,
+                font-weight,
+                background-color;
+}
+.calculate__price-btn:hover{
+    border: 2px double green;
+    font-weight: 900;
+    background-color: rgba(173, 216, 230, 0.658);
+}
+
+.calculate__price-btn i {
+    font-size: 22px;
+    color: #039be5;
+}
+
+
+
+
+
 /*Footer*/
 
 footer {
@@ -71,7 +105,14 @@ footer {
     margin: 75px 0 80px;
     text-align: center;
 }
-
+footer .calculate{
+    margin: -20px 0 25px;
+    
+    display: inline-flex;
+}
+footer .calculate .calculate__price-btn{
+    width: 450px;
+}
 .footer__text-title {
     font-size: 42px;
     letter-spacing: 1px;

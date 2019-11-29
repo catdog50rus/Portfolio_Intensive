@@ -90,13 +90,13 @@
     color: #039be5;
     font-weight: 300;
     text-align: center;
+    background-color: #fff;
     transition: 0.3s border, font-weight, background-color;
 }
 .project__nav-btn:hover{
     border: 2px double green;
-    
     font-weight: 700;
-    background-color: rgba(92, 158, 98, 0.658);
+    background-color: rgba(173, 216, 230, 0.658);
 }
 
 

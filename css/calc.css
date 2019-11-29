@@ -125,6 +125,10 @@
     font-size: 26px;
     font-weight: 300;
 }
+.calc-price-value span{
+    color: #039be5;
+    font-weight: 700;
+}
 
 .hidden {
     display: none;
